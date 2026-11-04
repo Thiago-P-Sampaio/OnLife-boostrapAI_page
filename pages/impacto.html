@@ -1,12 +1,179 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="./../css/global.css">
+    <link rel="stylesheet" href="./../css/header.css">
+
+    <title>Onlife | Impacto</title>
 </head>
 <body>
-    
+
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid px-lg-5">
+
+                <a class="navbar-brand" href="./../index.html">
+                    OnLife
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#menuMobile"
+                    aria-controls="menuMobile"
+                    aria-label="Abrir menu de navegação"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav align-items-lg-center gap-lg-3">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./../pages/impacto.html">
+                                Impacto
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./../pages/recupere_se.html">
+                                Recupere-se
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./../pages/relatorio.html">
+                                Relatório de Saúde Mental
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Interatividade
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="./../pages/calculadora_tempo.html">
+                                        Calculadora de Tempo
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="./../pages/relogio_foco.html">
+                                        Relógio de Foco
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./../pages/sobre.html">
+                                Sobre
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div
+                    class="offcanvas offcanvas-end mobile-menu"
+                    tabindex="-1"
+                    id="menuMobile"
+                    aria-labelledby="menuMobileLabel"
+                >
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="menuMobileLabel">
+                            OnLife
+                        </h5>
+
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Fechar menu"
+                        ></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav gap-2">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./../pages/impacto.html">
+                                    Impacto
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./../pages/recupere_se.html">
+                                    Recupere-se
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./../pages/relatorio.html">
+                                    Relatório de Saúde Mental
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    data-bs-toggle="collapse"
+                                    href="#submenuInteratividade"
+                                    role="button"
+                                    aria-expanded="false"
+                                    aria-controls="submenuInteratividade"
+                                >
+                                    Interatividade
+                                    <span class="dropdown-arrow">⌄</span>
+                                </a>
+
+                                <div class="collapse" id="submenuInteratividade">
+                                    <ul class="navbar-nav submenu-mobile">
+                                        <li>
+                                            <a class="nav-link" href="./../pages/calculadora_tempo.html">
+                                                Calculadora de Tempo
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="nav-link" href="./../pages/relogio_foco.html">
+                                                Relógio de Foco
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./../pages/sobre.html">
+                                    Sobre
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
 </body>
 </html>
