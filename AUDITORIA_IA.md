@@ -250,3 +250,128 @@ Houveram probemas na implementação do relógio, com o time circunscrito sobrep
 ```
 O `timer` está inscrito no circulo, porém o tamanho do circulo demonstra-se imcompatível, invandind o espaço do `timer`. Verifique também, se é responsivo!
 ```
+## PR006 — Página Impacto
+
+### Prompt utilizado
+
+```md
+### Atuação:
+Atue como desenvolvedor front-end, especialista em Bootstrap 5.3.8.
+
+### Objetivo:
+Construir o conteúdo principal (body/main) da página impacto do projeto OnLife.
+
+### Requisitos:
+- Apresentar o tema dos impactos do uso excessivo da internet.
+- Abordar possíveis consequências relacionadas à saúde mental.
+- Explicar os efeitos sobre a qualidade do sono, convivência social e concentração.
+- Utilizar componentes do Bootstrap 5.3.8.
+- Organizar as consequências em cards responsivos.
+- Finalizar com uma reflexão sobre a importância do equilíbrio digital.
+
+### Restrições:
+- Não alterar o header e o footer existentes.
+- Não adicionar gráficos ou imagens.
+- Não criar CSS externo adicional.
+- Manter uma linguagem simples e informativa.
+
+### Código base:
+Inserir o conteúdo entre o fechamento do header e a abertura do footer.
+
+### Resposta esperada:
+Fornecer o código HTML do conteúdo principal, sem comentários no código.
+```
+
+### Dossiê técnico
+
+Foi desenvolvida uma seção informativa sobre os impactos do uso excessivo da internet, abordando saúde emocional, sono, convivência social e concentração. A organização utiliza cards responsivos e componentes nativos do Bootstrap 5.3.8, preservando o cabeçalho e o rodapé existentes.
+
+A estrutura atendeu ao objetivo, mas os cards seguiram um padrão semelhante ao de outras páginas do projeto.
+
+---
+
+## PR007 — Página Recupere-se
+
+### Prompt utilizado
+
+```md
+### Atuação:
+Atue como desenvolvedor front-end, especialista em Bootstrap 5.3.8.
+
+### Objetivo:
+Construir o conteúdo principal da página Recupere-se do projeto OnLife.
+
+### Requisitos:
+- Apresentar a importância do equilíbrio no uso da internet.
+- Explicar por que fazer pausas no ambiente digital.
+- Oferecer dicas práticas para melhorar os hábitos digitais.
+- Abordar limites de utilização, pausas, atividades offline e qualidade do sono.
+- Organizar as dicas utilizando cards responsivos do Bootstrap.
+
+### Restrições:
+- Não alterar o header e o footer existentes.
+- Não adicionar gráficos.
+- Não inserir imagens neste primeiro momento.
+- Não criar CSS externo adicional.
+- Utilizar uma linguagem simples e acessível.
+
+### Código base:
+Inserir o conteúdo entre o fechamento do header e a abertura do footer.
+
+### Resposta esperada:
+Fornecer o código HTML do conteúdo principal, sem comentários no código.
+```
+
+### Dossiê técnico
+
+Foi criada uma página com orientações para melhorar os hábitos digitais, incluindo estabelecimento de limites, realização de pausas, atividades fora das telas e cuidados com o sono. A estrutura utiliza cards do Bootstrap 5.3.8 e uma mensagem final de conscientização. A inclusão de imagens foi deixada para uma etapa posterior.
+
+---
+
+## PR008 — Página Sobre
+
+### Prompt utilizado
+
+```md
+### Atuação:
+Atue como desenvolvedor front-end, especialista em Bootstrap 5.3.8.
+
+### Objetivo:
+Construir o conteúdo principal da página Sobre do projeto OnLife.
+
+### Requisitos:
+- Apresentar o projeto e sua finalidade.
+- Explicar os objetivos de conscientização sobre o uso da internet.
+- Apresentar o que os visitantes encontram no site.
+- Utilizar componentes e recursos do Bootstrap 5.3.8.
+- Manter uma linguagem simples e institucional.
+
+### Restrições:
+- Não alterar o header e o footer existentes.
+- Não adicionar gráficos ou imagens.
+- Não criar CSS externo adicional.
+- Manter o conteúdo organizado e responsivo.
+
+### Código base:
+Inserir o conteúdo entre o fechamento do header e a abertura do footer.
+
+### Resposta esperada:
+Fornecer o código HTML do conteúdo principal, sem comentários no código.
+```
+
+### Dossiê técnico
+
+Inicialmente, foi criada uma estrutura baseada em cards, semelhante às páginas anteriores. Após uma solicitação de revisão para evitar repetição visual, a estrutura foi modificada para uma apresentação institucional, utilizando colunas, uma área de destaque, lista de princípios e mensagem final. A alteração manteve o Bootstrap 5.3.8 e preservou a estrutura geral do site.
+
+### PR009 — Página Relatório de Saúde Mental
+
+**Prompt utilizado pela IA (reconstruído):**
+
+Atue como um desenvolvedor front-end e ajude a estruturar a página “Relatório de Saúde Mental” do site OnLife. Organize o conteúdo de forma informativa, apresentando dados e informações relacionados ao uso da internet e seus possíveis impactos na saúde mental. Utilize HTML, Bootstrap 5.3.8 e gráficos com Chart.js para facilitar a visualização dos dados. Mantenha a responsividade e respeite o cabeçalho e o rodapé já existentes no projeto.
+
+**Resultado e análise no dossiê:**
+
+Foi desenvolvida uma página de relatório com textos explicativos e gráficos produzidos com a biblioteca Chart.js, permitindo apresentar os dados de maneira mais visual e facilitar a compreensão das informações. A estrutura manteve o padrão visual do restante do site e utilizou os recursos do Bootstrap para organização e responsividade.
+
+A utilização dos gráficos tornou a página mais dinâmica e ajudou a complementar o conteúdo informativo. Foi necessário conferir a apresentação dos gráficos e sua integração com a estrutura HTML da página.
+
